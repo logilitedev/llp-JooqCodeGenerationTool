@@ -14,3 +14,14 @@
  
 - ## For Windows use this command line: 
       java -classpath jooq-3.4.4.jar;jooq-meta-3.4.4.jar;jooq-codegen-3.4.4.jar;mysql-connector-java-5.1.26.jar;. org.jooq.util.GenerationTool joust.xml 
+
+- ## Help of Eclipse : 
+  - Go to Run Configurations -> Java Application. 
+  - Create New Configuration.
+  - Select Main tab and adding Main Class org.jooq.util.GenerationTool
+  - Adding joust.xml inside program arguments. 
+  - Go to Classpath tab and adding following Extrenal JARs
+     - jooq-3.4.4.jar
+     - jooq-meta-3.4.4.jar
+     - jooq-codegen-3.4.4.jar
+     - mysql-connector-java-5.1.26.jar
